@@ -1,0 +1,1011 @@
+@import url(//db.onlinewebfonts.com/c/e0ac38de9e123eaefef1d09e011d49ac?family=FoxGrotesqueW01-Light);
+.App {
+  background: white;
+  color: #282828;
+  font-family: 'Porsche News CYR', arial;
+
+}
+.access{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0px;
+}
+.access-text{
+  font-family: 'Porsche News CYR', sans-serif;
+  font-size: calc(10px + 1.5vmin);
+  padding: 10px;
+}
+.images-row{
+  width: 280px;
+  height: 200px;
+}
+
+.access-elem{
+  cursor: pointer;
+  transition: 0.4s;
+  max-width: 100%;
+
+}
+.access-elem:hover{
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+.car-im{
+  height: 100vh;
+}
+
+.App-logo {
+  height: 12vmin;
+  pointer-events: none;
+}
+.App-header{
+  text-align: center;
+  background-image: url('./img/MA19T2CIX0001_low.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  height: 100vh;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.App-header-panamera{
+  background-image: url('./img/PA20P3EOX0009_KV_low.jpg');
+}
+.App-header-cayenne{
+  background-image: url('./img/Cayenne/CY18J4DOX0005_low.jpg');
+}
+.App-header-911{
+  background-image: url('./img/911сайт/CZ20V01OX0003_low.jpg');
+}
+.App-header-porsche{
+  background-image: url('./img/IMG_5521.jpg');
+}
+.App-header-access{
+  background-image: url('./img/porsche-normal.jpg');
+  background-position-y: 70px;
+}
+.App-header-contact{
+  min-height: 0vh;
+  height: fit-content;
+  max-height: 70vh;
+}
+.App-header-offers{
+  min-height: 0vh;
+  height: fit-content;
+  max-height: 70vh;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  background-color: white;
+  color: black;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+}
+.main-items a{
+  text-decoration: none;
+  color: #282828;
+}
+.menu-item{
+  padding: 15px 20px;
+  font-weight: 500;
+  font-size: calc(10px + 0.9vmin);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.map{
+  width: 65vw;
+  max-width:65vw;
+  height: 400px;
+  margin: 40px;
+  margin-right: 100px;
+}
+.contacts-number{
+  padding-left: 25px;
+}
+
+.contacts-numbers{
+  padding: 45px 0px 0px 105px;
+}
+
+.map-contacts{
+  display:flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.bottom-text{
+  color: white;
+  padding: 40px 0px;
+  box-sizing: border-box;
+}
+
+.top-nav{
+  color: #d1d1d1;
+}
+.chat{
+  max-width: 30vw;
+  position: fixed;
+  max-height: 500px;
+  z-index: 10000;
+  right: 0px;
+  bottom: 0px;
+}
+.chat .open{
+  padding: 45px 55px;
+  cursor: pointer;
+}
+.chat .close{
+  cursor: pointer;
+}
+.chat-window{
+  overflow-y:scroll;
+  max-height: 200px;
+  display: flex;
+}
+
+.car-name{
+  font-family: 'Porsche News CYR', sans-serif;
+  font-size: calc(10px + 9vmin);
+  margin: 0;
+}
+.car-price{
+  margin: 0;
+  font-size: calc(10px + 2vmin);
+}
+
+.photo{
+  width: 100%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.link-main{
+  text-decoration: none !important;
+  color: white;
+  font-size: 3rem;
+}
+.link-main:hover{
+  color: #BD081C;
+}
+.link-main:hover > .unikum{
+  color: #BD081C !important;
+}
+.link-main h3{
+  font-size: 3rem;
+}
+@font-face {font-family: "FoxGrotesqueW01-Light";
+  src: url("//db.onlinewebfonts.com/t/e0ac38de9e123eaefef1d09e011d49ac.eot");
+  src: url("//db.onlinewebfonts.com/t/e0ac38de9e123eaefef1d09e011d49ac.eot?#iefix") format("embedded-opentype"),
+  url("//db.onlinewebfonts.com/t/e0ac38de9e123eaefef1d09e011d49ac.woff2") format("woff2"),
+  url("//db.onlinewebfonts.com/t/e0ac38de9e123eaefef1d09e011d49ac.woff") format("woff"),
+  url("//db.onlinewebfonts.com/t/e0ac38de9e123eaefef1d09e011d49ac.ttf") format("truetype"),
+  url("//db.onlinewebfonts.com/t/e0ac38de9e123eaefef1d09e011d49ac.svg#FoxGrotesqueW01-Light") format("svg");
+}
+
+.infopage{
+  text-align: left;
+}
+
+.info-text{
+  background-color:white;
+  padding: 45px 25px;
+  opacity: 0.95;
+  position: absolute;
+  margin-top: 5vh;
+  left: 75vw;
+  font-family: 'Porsche News CYR', sans-serif;
+  font-size: calc(10px + 1vmin);
+
+}
+.info-text2{
+  background-color:white;
+  padding: 45px 25px;
+  opacity: 0.95;
+  position: absolute;
+  margin-top: 5vh;
+  left: 70vw;
+  font-family: 'Porsche News CYR', sans-serif;
+  font-size: calc(10px + 1vmin);
+}
+.info-text3{
+  background-color:white;
+  padding: 45px 15px;
+  opacity: 0.95;
+  position: absolute;
+  margin-top: 5vh;
+  left: 67vw;
+  right: 2vw;
+  font-family: 'Porsche News CYR', sans-serif;
+  font-size: calc(10px + 1vmin);
+
+}
+
+
+
+
+.infopage p{
+  margin: 0;
+}
+
+
+.sale{
+  font-family: 'Porsche News CYR', sans-serif;
+  font-size: calc(10px + 3.7vmin);
+  color: #282828;
+  font-weight: bold;
+  margin: 0;
+  line-height: 64px;
+  text-align: left;
+}
+
+.bottom-text-section{
+  background-color: white;
+  padding: 20px 25px;
+  position: absolute;
+  margin-top: 7vh;
+  right: 0px;
+}
+
+.bottom-text-section-left{
+  background-color: white;
+  padding: 20px 25px;
+  position: absolute;
+  margin-top: -42vh;
+  right: 0px;
+}
+.bottom-text-section-left-big{
+  background-color: white;
+  padding: 20px 25px;
+  position: absolute;
+  margin-top: -62vh;
+  right: 0px;
+}
+.bottom-text-section-left-lit{
+  background-color: white;
+  padding: 20px 25px;
+  position: absolute;
+  margin-top: -32vh;
+  right: 0px;
+}
+.text-mobile-none{
+  margin-top: 25px;
+}
+.sale-left-text{
+  font-family: 'Porsche News CYR', sans-serif;
+  font-size: calc(10px + 1.5vmin);
+  max-width: 60vw;
+  padding: 25px;
+  box-sizing: border-box;
+  color: black;
+  margin: 0;
+  /* line-height: 64px; */
+  text-align: left;
+}
+
+.sale-left-text-warner{
+  font-size: calc(10px + 1.8vmin);
+  font-weight: bolder;
+  /* line-height: 64px; */
+}
+
+
+
+.infopage-car-category{
+  width: 100px;
+  box-sizing: border-box;
+  border: 1px solid #282828;
+  border-radius: 50px;
+  text-align: center;
+  padding: 5px;
+}
+
+.infopage-car-name{
+  font-size: calc(10px + 4.5vmin);
+  margin: 0;
+  padding: 0;
+
+}
+.infopage-car-year{
+  font-size: calc(10px + 4vmin);
+  margin: 0;
+  padding: 0;
+  font-weight: 100;
+}
+
+.infopage-car-price{
+  font-size: calc(10px + 2vmin);
+  font-weight: bold;
+  color: black;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.infopage-go-button{
+  padding-top: 20px;
+  font-size: calc(10px + 1vmin);
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: black;
+  cursor: pointer;
+}
+
+.infopage-go-button::after{
+  content: "";
+    display: block;
+    background: url("./img/play-button.png") no-repeat;
+    background-size: 20px;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0px 5px 0 0;
+}
+
+.infopage-left{
+  display: none;
+  width: 180px;
+  padding: 45px 25px;
+  background-color:white;
+  opacity: 0.95;
+  position: absolute;
+  margin-top: -75vh;
+  left: 1vw;
+} 
+
+.infopage-left-elem{
+  border-top: 1px solid #282828;
+  margin-bottom: 40px;
+}
+.infopage-left-title{
+  margin: 5px 0px;
+  font-size: calc(10px +0.5vmin);
+}
+
+.infopage-left-info{
+  margin: 10px 0;
+  color: black;
+  font-weight: bolder;
+}
+
+.infopage-logo{
+  display: none;
+  position: absolute;
+  margin-top: -25vmin;
+  left: calc(100vw - 45vmin);
+}
+
+.trunk-info{
+  background-color: white;
+  display: flex;
+  margin: 0;
+  padding: 50px 65px 30px 65px;
+  margin-top: -3px;
+}
+.trunk-photo-wrap{
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.trunk-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Porsche News CYR', arial;
+
+}
+.trunk-text-title{
+  margin-bottom: 35px;
+  font-size: calc(10px + 4.5vmin);
+}
+
+.trunk-volume{
+  font-size: calc(10px + 3.5vmin);
+  margin-bottom: 15px;
+}
+
+.trunk-volume-info{
+  color: grey;
+}
+
+.trunk-button{
+  font-size: calc(10px + 1.5vmin);
+  margin-top: -50px;
+  cursor: pointer;
+  border-radius: 500px;
+  background: white;
+  padding: 15px 25px;
+  box-shadow: 1px 2px 3px 1.5px rgba(0,0,0,.2);
+}
+
+.trunk-button:hover{
+  background-color:#d4263e;
+  color: white;
+}
+
+.idea-page{
+  background: white;
+}
+
+.top-idea-block{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0px;
+}
+
+.top-idea-block-text{
+  width: 40vw;
+  color: black;
+  padding: 35px;
+}
+
+.top-idea-block-title{
+  font-family: 'Porsche News CYR', arial;
+  font-size: calc(10px + 5.5vmin);
+  font-weight: 300;
+}
+.top-idea-block-info{
+  font-family: 'Porsche News CYR', arial;
+  line-height: 1.5rem;
+}
+
+.top-idea-block-images{
+  width: 35vw;
+}
+
+.bottom-idea-block{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bottom-block-image{
+  padding-right: 30px;
+}
+.bottom-block-image img{
+  width: 65vw;
+}
+
+
+.bottom-block-text{
+  width: 40vw;
+  color: black;
+  padding: 35px;
+}
+
+footer{
+  background-color: #191f22;
+  padding: 50px 120px;
+  color: #fffff8;
+}
+
+.footer-content{
+    border-top: 1px solid grey;
+} 
+
+.top-footer{
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.social-links{
+  display: flex;
+  justify-content: center;
+}
+
+.social-links div{
+  width: 56px;
+  height: 56px;
+  background-color: #313639;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.social-links div img{
+  width:100%;
+  padding: 12px;
+}
+
+.facebook-porsche:hover{
+  background-color: #3C5A99;
+  transition: 0.4s;
+}
+
+.youtube-porsche:hover{
+  background-color: #FF0000;
+  transition: 0.4s;
+}
+
+.instagram-porsche:hover{
+  background-color: #833AB4;
+  transition: 0.4s;
+}
+.linkedin-porsche:hover{
+  background-color: #0077B5;
+  transition: 0.4s;
+}
+.p-porsche:hover{
+  background-color: #BD081C;
+  transition: 0.4s;
+}
+
+
+.info-dropdown-text{
+  padding: 80px 130px;
+  width: 50%;
+  color: black;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+
+}
+
+.form-message{
+  display: flex;
+}
+.models{
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  background-color: white;
+  margin: 10px 0px;
+  box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.47);  
+}
+.contacts{
+  padding: 4px 60px;
+  width: 90%;
+  color: black;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.text-acc{
+  padding: 0px 60px;
+  width: 50%;
+  color: black;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 35px;
+}
+
+.info2{
+  display: flex;
+  width: 100%;
+}
+
+
+.info-elem{
+  width: 100%;
+  height: 350px;
+  background-position: center;
+  background-size: cover;
+  padding: 35px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.info-button{
+  width: 120px;
+  padding: 15px 20px;
+  border: 1.1px solid white;
+  color:white;
+  font-size: calc(10px + 1.2vmin);
+  text-align: center;
+  margin-top: -20px;
+}
+
+.info-button:hover{
+  color: #BD081C;
+  border: 1.1px solid #BD081C;
+  background: transparent ;
+  cursor: pointer;
+}
+
+#contact-id{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-button-sale{
+  width: 200px;
+  padding: 15px 20px;
+  border: 1.1px solid black;
+  color:black;
+  font-size: calc(10px + 1.2vmin);
+  text-align: center;
+  margin-left: 25px;
+}
+
+.info-button-sale:hover{
+  color: #BD081C;
+  border: 1.1px solid #BD081C;
+  background: transparent ;
+  cursor: pointer;
+}
+.unikum{
+  font-size: calc(10px + 2.2vmin);
+}
+a:hover{
+  text-decoration: none;
+}
+.info-button-text:hover{
+  text-decoration: none;
+}
+
+.info-name{
+  color: white;
+  font-size: calc(10px + 3.2vmin);
+  font-weight: 500;
+
+}
+
+.gallery-text{
+  background-color:white;
+  font-size: calc(10px + 4.2vmin);
+  color: black;
+  padding:0px 0px 0px 55px;;
+
+}
+
+.gallery-text2{
+  background-color:white;
+  font-size: calc(10px + 4.2vmin);
+  color: black;
+  margin-bottom: 10px;
+}
+
+
+.contact-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 40px 40px 40px;
+}
+
+.mobile-dp{
+  display: none;
+}
+
+@media screen and (max-width:499px){
+    .menu{
+      flex-direction: column;
+    }
+    .menu-item{
+      padding: 5px;
+    }
+    .info-text{
+      position: initial;
+      padding: 45px 25px;
+      margin-top: 0px;
+      left: 0px;
+    }
+    .info-text2{
+      position: initial;
+      padding: 45px 25px;
+      margin-top: 0px;
+      left: 0px;
+    }
+    .info-text3{
+      position: initial;
+      padding: 45px 25px;
+      margin-top: 0px;
+      left: 0px;
+      right: unset;
+    }
+    .models{
+      position: absolute;
+      z-index: 100;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+      padding: 0px;
+      left: 20vw;
+      margin: 10px auto;
+      box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.47);  
+    }
+    .bottom-text-section-left{
+      position: initial;
+      padding: 15px 0px;
+      margin-top: 0px;
+      left: 0px;
+    }
+    .map{
+      width: 80vw;
+      max-width:80vw;
+      height: 300px;
+      margin: 40px;
+      margin-right: unset;
+    }
+    .contacts-number{
+      padding-left: unset;
+      text-align:center;
+    }
+    .gk{
+      text-align:center;
+    }
+    .contacts-numbers{
+      padding: 45px 0px 0px 0px;
+    }
+    
+    .map-contacts{
+      display:flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+    }
+    .bottom-text-section-left-big{
+      position: initial;
+      padding: 15px 0px;
+      margin-top: 0px;
+      left: 0px;
+    }
+    .bottom-text-section-left-lit{
+      position: initial;
+      padding: 15px 0px;
+      margin-top: 0px;
+      left: 0px;
+    }
+    .main-items{
+      text-align: center;
+    }
+    .link-main h3{
+      font-size: 0.8rem;
+    }
+    .unikum{
+      font-size: calc(10px + 1vmin);
+    }
+    .sale{
+      font-family: 'Porsche News CYR', sans-serif;
+      font-size: calc(10px + 3.5vmin);
+      color: #282828;
+      font-weight: bold;
+      margin: 0;
+      line-height: 40px;
+      padding: 15px;
+      text-align: center;
+    }
+    .price-newline{
+      display: block;
+    }
+    .sale-left-text{
+      font-family: 'Porsche News CYR', sans-serif;
+      font-size: calc(10px + 1.5vmin);
+      max-width: unset;
+      padding: 25px;
+      box-sizing: border-box;
+      color: black;
+      margin: 0;
+      /* line-height: 64px; */
+    }
+
+    .car-im{
+      height: unset;
+    }
+    .sale-left-text-warner{
+      font-size: calc(10px + 1.8vmin);
+      font-weight: bolder;
+      /* line-height: 64px; */
+    }
+    
+    .infopage-left{
+      display: block;
+      position: initial;
+      margin-top: -5px;
+      left: 0px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .text-mobile-none{
+      display: none;
+    }
+    .bottom-text-section{
+      position: initial;
+      margin-top: -5px;
+      left: 0px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .infopage-logo{
+      display: initial;
+      position: initial;
+      margin:0 auto !important;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+    }
+
+    .top-idea-block{
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 0px;
+    }
+
+    .top-idea-block-text{
+      width: 80vw;
+    }
+    .App-header-contact{
+      min-height: 20vh;
+      height: 20vh;
+      max-height: 20vh;
+    }
+
+    .App-header-access{
+      background-image: url('./img/porsche-normal.jpg');
+      background-position-y: 170px !important;
+    }
+
+    .top-idea-block-images{
+      width: 80vw;
+    }
+    .gg{
+      text-align: center;
+    }
+
+    .row{
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    .text-acc{
+      width: 90%;
+    }
+
+    .bottom-idea-block{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .bottom-block-image{
+      margin: 0 auto;
+      padding: 0px;
+    }
+
+    .bottom-block-image img{
+      width:80vw;
+    }
+
+    .bottom-block-text{
+      width: 80vw;
+    }
+
+    .info2{
+      flex-direction: column;
+    }
+    .info-elem{
+      height: 280px;
+      padding: 30px 0px;
+      align-items: center;
+    }
+    .info-button{
+      width: 75vw;
+      margin: -20px auto;
+      padding: 10px 25px;
+    }
+
+    .trunk-info{
+      flex-direction: column;
+      padding: 20px 20px;
+    }
+
+    .trunk-photo-wrap{
+      width: 90vw;
+    }
+
+    .trunk-photo{
+      width: 100%;
+    }
+
+    .trunk-text{
+      text-align: center;
+      margin: 25px 0px;
+    }
+
+    .gallery-text{
+      padding: 25px 0px 0px 35px;;
+    }
+
+    .info-dropdown-text{
+      padding: 50px 40px;
+      width: 80%;
+    }
+
+    .contact-section{
+      flex-direction: column-reverse;
+    }
+  
+    .App-header{
+      background-size: contain;
+      background-position-y: 90px;
+      min-height: 0;
+      background-repeat: no-repeat;
+      height: 370px;
+      max-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .App-header-panamera{
+      background-position-y: 140px;
+     
+    }
+    .App-header-cayenne{
+      background-position-y: 130px;
+    }
+
+
+    .mobile-dp{
+      display: block;
+    }
+    .no-mobile-dp{
+      display: none;
+    }
+    footer{
+      padding: 30px 40px;
+    }
+
+    .car-name{
+      font-family: 'Porsche News CYR', cursive;
+      font-size: calc(10px + 7vmin);
+      margin: 0;
+      padding: 0;
+    }
+    .car-description{
+      font-family: 'Porsche News CYR', cursive;
+      font-size: calc(10px + 6vmin);
+      margin: 0;
+      padding: 0;
+    }
+    .contacts{
+      padding: 4px 0px;
+      text-align: center;
+      width: 100%;
+      color: black;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .gallery-text{
+      text-align: center;
+      padding-right: 0;
+      padding-left: 0;
+    }
+    .info-button-sale{
+      width: 150px;
+      padding: 15px 20px;
+      border: 1.1px solid black;
+      color:black;
+      font-size: calc(10px + 1.2vmin);
+      text-align: center;
+      margin-left: 25px;
+    }
+    .contact-section{
+      padding: 40px 40px 40px 40px;
+    }
+}
