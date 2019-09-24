@@ -454,6 +454,20 @@ a{
   padding: 35px;
 }
 
+.top-block-title{
+  font-family: 'Porsche News CYR', arial;
+  font-size: calc(2px + 2.5vmin);
+  margin-bottom: 5px;
+}
+
+.top-block-title-marginTop{
+  font-family: 'Porsche News CYR', arial;
+  font-size: calc(2px + 2.5vmin);
+  margin-top: 2%;
+  margin-bottom: 5px;
+  
+}
+
 .top-idea-block-title{
   font-family: 'Porsche News CYR', arial;
   font-size: calc(10px + 5.5vmin);
@@ -605,7 +619,7 @@ footer{
 }
 
 .info-button{
-  width: 120px;
+  width: 140px;
   padding: 15px 20px;
   border: 1.1px solid white;
   color:white;
@@ -651,6 +665,7 @@ a:hover{
   text-decoration: none;
 }
 .info-button-text:hover{
+  
   text-decoration: none;
 }
 
@@ -1007,5 +1022,15 @@ a:hover{
     }
     .contact-section{
       padding: 40px 40px 40px 40px;
+    }
+    .player-wrapper {
+      position: relative;
+      padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+    }
+    
+    .react-player {
+      position: absolute;
+      top: 0;
+      left: 0;
     }
 }

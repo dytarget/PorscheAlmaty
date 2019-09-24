@@ -18,6 +18,7 @@ import Chat from './Chat';
 import Accessories from './Accessories';
 import Offers from './SpecialOffers';
 import { Contact } from './Contact';
+import CayenneCoupe from './CayenneCoupe';
 
 
 class App extends React.Component {
@@ -49,6 +50,7 @@ class App extends React.Component {
               <Route exact path="/macan" component={Macan}/>
               <Route exact path="/panamera" component={Panamera}/>
               <Route exact path="/cayenne" component={Cayenne}/>
+              <Route exact path="/cayenne_coupe" component={CayenneCoupe}/>
               <Route exact path="/p911" component={Por911}/>
               <Route exact path="/accessories" component={Accessories}/>
               <Route exact path="/special_offers" component={Offers}/>

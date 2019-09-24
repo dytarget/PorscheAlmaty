@@ -27,6 +27,12 @@ export class ModelList extends Component {
                 photo:"./img/porsche-thumbwhite (3).webp",
                 name:"Cayenne",
                 price:"от 13 290 000 тг"
+            },
+            {
+                path:"/cayenne_coupe",
+                photo:"./img/porsche-thumbwhite (3).webp",
+                name:"Cayenne Coupe",
+                price:"от 13 290 000 тг"
             }
         ]
     }

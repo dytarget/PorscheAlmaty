@@ -1,5 +1,6 @@
 .model-list{
     margin: 0;
+    padding-right: 50px;
     padding: 20px;
     display: flex;
     text-align: center;
